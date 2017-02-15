@@ -4,6 +4,7 @@
 \alias{malf_images}
 \alias{malf_template_images}
 \alias{malf_template_brains}
+\alias{malf_template_masks}
 \alias{malf_template_labels}
 \title{Get Image Filenames for templates}
 \usage{
@@ -12,6 +13,8 @@ malf_images(group = c("train", "test"))
 malf_template_images(...)
 
 malf_template_brains(...)
+
+malf_template_masks(...)
 
 malf_template_labels(...)
 }
