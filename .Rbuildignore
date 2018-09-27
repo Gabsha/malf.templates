@@ -1,3 +1,6 @@
+^appveyor\.yml$
+^\./\.travis\.yml\.bak$
+^DESCRIPTION\.bak$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.travis\.yml$
@@ -5,7 +8,6 @@
 README\.md
 inst/demographics.xlsx
 inst/MICCAI-Challenge-2012-Label-Information.xlsx
-
 inst/extdata/make_brains\.R
 inst/extdata/make_tissues\.R
 inst/extdata/image_reducer\.R
