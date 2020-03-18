@@ -21,4 +21,5 @@ BugReports: https://github.com/muschellij2/malf.templates/issues
 Suggests: knitr, rmarkdown, covr, testthat
 VignetteBuilder: knitr
 biocViews:
+Repository: Neuroconductor
 Remotes:
