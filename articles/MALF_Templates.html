@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Using the MALF Templates • malf.templates</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css" integrity="sha256-PbSmjxuVAzJ6FPvNYsrXygfGhNJYyZ2GktDbkMBqQZg=" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/v4-shims.min.css" integrity="sha256-A6jcAdwFD48VMjlI3GDxUd+eCQa7/KWy6G9oe/ovaPA=" crossorigin="anonymous">
-<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js" integrity="sha256-DJFC1kqIhelURkuza0AvYal5RxMtpzLjFhsnVIeuk+U=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../pkgdown.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../bootstrap-toc.css">
+<script src="../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
+<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../pkgdown.css" rel="stylesheet">
 <script src="../pkgdown.js"></script><meta property="og:title" content="Using the MALF Templates">
 <meta property="og:description" content="malf.templates">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -17,7 +18,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body data-spy="scroll" data-target="#toc">
     <div class="container template-article">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -30,7 +31,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">malf.templates</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.2.0</span>
       </span>
     </div>
 
@@ -78,10 +79,10 @@
       </header><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
-      <h1>Using the MALF Templates</h1>
+      <h1 data-toc-skip>Using the MALF Templates</h1>
                         <h4 class="author">John Muschelli</h4>
             
-            <h4 class="date">2020-03-18</h4>
+            <h4 class="date">2020-04-02</h4>
       
       <small class="dont-index">Source: <a href="https://github.com/muschellij2/malf.templates/blob/master/vignettes/MALF_Templates.Rmd"><code>vignettes/MALF_Templates.Rmd</code></a></small>
       <div class="hidden name"><code>MALF_Templates.Rmd</code></div>
@@ -97,15 +98,16 @@
 <p>The challenge details are located at <a href="http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Challenge_Details" class="uri">http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Challenge_Details</a></p>
 <p>The data were be released under the Creative Commons Attribution-NonCommercial (<a href="https://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC</a>) with no end date. Users should credit the MRI scans as originating from the OASIS project and the labeled data as “provided by Neuromorphometrics, Inc. (<a href="http://Neuromorphometrics.com/" class="uri">http://Neuromorphometrics.com/</a>) under academic subscription”. These references should be included in all workshop and final publications.</p>
 <p>A summary of this message is seen when you load in the package:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(malf.templates)</a></code></pre></div>
+<div class="sourceCode" id="cb1"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">malf.templates</span>)</pre></body></html></div>
 </div>
 <div id="where-is-the-data-located" class="section level1">
 <h1 class="hasAnchor">
 <a href="#where-is-the-data-located" class="anchor"></a>Where is the Data located?</h1>
 <p>The <code>malf_images</code> is the general workhorse function for returning the data from the MALF templates. It takes one argument (<code>group</code>) to indicate which group from the competition to take the data (<code>train</code> or <code>test</code>). If both groups are passed, then all the data is returned. Group would generally only be specified if you wanted to do something relevant to the competition.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">mi =<span class="st"> </span><span class="kw"><a href="https://rdrr.io/pkg/malf.templates/man/malf_images.html">malf_images</a></span>()</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="kw"><a href="https://rdrr.io/r/base/names.html">names</a></span>(mi)</a></code></pre></div>
-<pre><code>## [1] "images"  "labels"  "brains"  "masks"   "tissues"</code></pre>
+<div class="sourceCode" id="cb2"><html><body><pre class="r"><span class="no">mi</span> <span class="kw">=</span> <span class="fu"><a href="https://rdrr.io/pkg/malf.templates/man/malf_images.html">malf_images</a></span>()
+<span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span>(<span class="no">mi</span>)</pre></body></html></div>
+<pre><code>## [1] "images"     "labels"     "brains"     "masks"      "tissues"   
+## [6] "classified"</code></pre>
 <p>The return is a list of filenames, broken into <code>images</code> (raw T1-weighted scans), <code>labels</code> (delineated labeled structures), <code>brains</code> (processed T1-weighted images, skull-stripped), <code>masks</code> (binary brain masks).</p>
 <div id="derivative-functions" class="section level2">
 <h2 class="hasAnchor">
@@ -116,23 +118,23 @@
 <h2 class="hasAnchor">
 <a href="#mass-derivatives" class="anchor"></a>MASS Derivatives</h2>
 <p>For backwards compatibility when the <code>mass.templates</code> package was integrated, the <code>mass_images</code> function was created. It simply returns the images and the brain masks. Generally, these are used for MASS (multi-atlas skull stripping), which is a bit more specific (but more widely-applicable) applicatio of label fusion:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1">mi =<span class="st"> </span><span class="kw"><a href="https://rdrr.io/pkg/malf.templates/man/mass_images.html">mass_images</a></span>()</a>
-<a class="sourceLine" id="cb4-2" data-line-number="2"><span class="kw"><a href="https://rdrr.io/r/base/names.html">names</a></span>(mi)</a></code></pre></div>
+<div class="sourceCode" id="cb4"><html><body><pre class="r"><span class="no">mi</span> <span class="kw">=</span> <span class="fu"><a href="https://rdrr.io/pkg/malf.templates/man/mass_images.html">mass_images</a></span>()
+<span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span>(<span class="no">mi</span>)</pre></body></html></div>
 <pre><code>## [1] "images" "masks"</code></pre>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="kw"><a href="https://rdrr.io/pkg/malf.templates/man/mass_images.html">mass_template_images</a></span>())</a></code></pre></div>
-<pre><code>## [1] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1000.nii.gz"
-## [2] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1001.nii.gz"
-## [3] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1002.nii.gz"
-## [4] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1006.nii.gz"
-## [5] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1007.nii.gz"
-## [6] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1008.nii.gz"</code></pre>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="kw"><a href="https://rdrr.io/pkg/malf.templates/man/mass_images.html">mass_template_masks</a></span>())</a></code></pre></div>
-<pre><code>## [1] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1000_mask.nii.gz"
-## [2] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1001_mask.nii.gz"
-## [3] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1002_mask.nii.gz"
-## [4] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1006_mask.nii.gz"
-## [5] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1007_mask.nii.gz"
-## [6] "/tmp/RtmpT3ooUn/temp_libpathed6b87586b/malf.templates/extdata/1008_mask.nii.gz"</code></pre>
+<div class="sourceCode" id="cb6"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="fu"><a href="https://rdrr.io/pkg/malf.templates/man/mass_images.html">mass_template_images</a></span>())</pre></body></html></div>
+<pre><code>## [1] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1000.nii.gz"
+## [2] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1001.nii.gz"
+## [3] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1002.nii.gz"
+## [4] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1006.nii.gz"
+## [5] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1007.nii.gz"
+## [6] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1008.nii.gz"</code></pre>
+<div class="sourceCode" id="cb8"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="fu"><a href="https://rdrr.io/pkg/malf.templates/man/mass_images.html">mass_template_masks</a></span>())</pre></body></html></div>
+<pre><code>## [1] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1000_mask.nii.gz"
+## [2] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1001_mask.nii.gz"
+## [3] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1002_mask.nii.gz"
+## [4] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1006_mask.nii.gz"
+## [5] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1007_mask.nii.gz"
+## [6] "/tmp/Rtmp1AqLrh/temp_libpath643a7db518f6/malf.templates/extdata/1008_mask.nii.gz"</code></pre>
 <p>The large difference is that <code>mass_images</code> (and the derivative functions) simply take the <code>n_templates</code> argument for the number of templates to return (from 1 to 35).</p>
 </div>
 <div id="what-to-use-them-with" class="section level2">
@@ -146,21 +148,9 @@
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
 
-        <div id="tocnav">
-      <h2 class="hasAnchor">
-<a href="#tocnav" class="anchor"></a>Contents</h2>
-      <ul class="nav nav-pills nav-stacked">
-<li><a href="#data-disclaimer">Data Disclaimer</a></li>
-      <li>
-<a href="#where-is-the-data-located">Where is the Data located?</a><ul class="nav nav-pills nav-stacked">
-<li><a href="#derivative-functions">Derivative Functions</a></li>
-      <li><a href="#mass-derivatives">MASS Derivatives</a></li>
-      <li><a href="#what-to-use-them-with">What to use them with?</a></li>
-      </ul>
-</li>
-      </ul>
+        <nav id="toc" data-toggle="toc"><h2 data-toc-skip>Contents</h2>
+    </nav>
 </div>
-      </div>
 
 </div>
 
@@ -171,7 +161,7 @@
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.4.1.9000.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.0.9000.</p>
 </div>
 
       </footer>
