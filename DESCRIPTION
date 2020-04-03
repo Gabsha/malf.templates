@@ -18,7 +18,11 @@ RoxygenNote: 7.0.1
 URL:
         http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Main_Page
 BugReports: https://github.com/muschellij2/malf.templates/issues
-Suggests: knitr, rmarkdown, covr, testthat
+Suggests: 
+    knitr,
+    rmarkdown,
+    covr,
+    testthat
 VignetteBuilder: knitr
-biocViews:
 Repository: Neuroconductor
+biocViews: 
